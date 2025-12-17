@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Digital | Experiencia P5.js</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+
+    <div class="main-content">
+        
+        <nav class="navbar">
+            <div class="brand">NEXUS</div>
+            <ul class="nav-links">
+                <li><a href="#home">Concepto</a></li>
+                <li><a href="#about">Tecnología</a></li>
+                <li><a href="#contact" class="btn-highlight">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <header id="home" class="hero-section">
+            <h1>FLUJO DIGITAL</h1>
+            <p class="subtitle">Interactúa con el horizonte. Mueve tu ratón para alterar la frecuencia y amplitud del terreno.</p>
+            <div class="scroll-indicator">▼</div>
+        </header>
+
+        <section id="about" class="info-grid">
+            <div class="card glass">
+                <div class="icon">⚡</div>
+                <h3>Renderizado GPU</h3>
+                <p>Uso de algoritmos de ruido Perlin para generar geometría orgánica en tiempo real.</p>
+            </div>
+            <div class="card glass">
+                <div class="icon">🎨</div>
+                <h3>Estética Cyber</h3>
+                <p>Paleta de colores neón sobre fondo oscuro para máximo contraste y legibilidad.</p>
+            </div>
+            <div class="card glass">
+                <div class="icon">🖱️</div>
+                <h3>Reactivo</h3>
+                <p>El algoritmo matemático se reescribe según la posición X e Y de tu cursor.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-wrap">
+            <div class="form-container glass">
+                <h2>Únete a la Red</h2>
+                <form>
+                    <div class="input-group">
+                        <label>Identidad</label>
+                        <input type="text" placeholder="Tu nombre...">
+                    </div>
+                    <div class="input-group">
+                        <label>Canal</label>
+                        <input type="email" placeholder="tucorreo@ejemplo.com">
+                    </div>
+                    <button type="submit" class="btn-submit">INICIAR CONEXIÓN</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>Desarrollado con HTML5 + P5.js | Diseño Generativo</p>
+        </footer>
+    </div>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
